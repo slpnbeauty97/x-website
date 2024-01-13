@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .center-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .center-container img {
+            width: 100%;
+            max-width: 500px; /* Adjust the maximum width of the image */
+            height: auto;
+            cursor: pointer;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .spotify-embed {
+            border-radius: 12px;
+            width: 100%;
+            max-width: 300px; /* Adjust the maximum width of the Spotify playlist */
+            height: 352px;
+        }
+        .nav{
+    margin-top:20px;
+    position:fixed;
+}
+.nav a{
+    text-decoration:none;
+    color:black;
+}
+@media screen and (max-width:768px){
+       
+       .nav a{
+           display:block;
+           padding:20px;
+           transition: 1s;
+       }
+      
+   }
+        
+    </style>
+
+
+
+<body>
+
+
+<header>
+        <h1>About Me </h1>
+    </header>
+    <div class="nav">
+    
+    <a href="index.php">Home</a>
+    <a href="about.php">About</a>
+    <a href="contact.php">Contact</a>
+    <a href="login.php">Login</a>
+</div>
+    
+
+    <div class="center-container"id="gif-container">
+        <img src="C:\Users\USER\Downloads\untitled (1).gif" alt="Your GIF" onclick="triggerAnimation()">
+        <p> im just a bat</p>
+
+ <!-- Spotify Embed Playlist -->
+ <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2rhFzFmezpnW82MNqEKVry?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+
+
+
+
+
+
+    </div>
+
+    <p> im just a bat</p>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
+   
+
+
+
+
+
+
+

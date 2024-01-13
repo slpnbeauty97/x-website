@@ -1,0 +1,117 @@
+.socials{
+    margin-top:50px;
+    float:right;
+    
+}
+.nav{
+    margin-top:20px;
+    position:fixed;
+}
+.nav a{
+    text-decoration:none;
+    color:black;
+}
+.social-icon {
+    margin-left: 2%; /* Adjust as needed */
+    width: 20%; /* Adjust as needed */
+    height: auto;
+}
+
+.instagram-icon img {
+    width: 20%; /* Adjust as needed */
+    height: auto;
+}
+
+.gif-container {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.gif-container img {
+    width: 100%; /* Make the GIF container responsive */
+    cursor: pointer;
+}
+
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+ /* Additional CSS styles for cursor pointer */
+ .center-container img {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.animated-gif {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: #fffefe;
+    background-color: #fcfbfb;
+
+
+
+
+
+
+
+
+
+
+}
+
+h1{
+    margin: 0;
+    font-size: 2.5em;
+    line-height: 1.2;
+    }
+    
+    
+    
+    
+    
+    
+    header {
+        background-color: #fffdfd; /* Adjust background color as needed */
+        color: rgb(12, 12, 12);
+        text-align: center;
+        padding: 10px;
+    }
+    
+    
+    h3{
+    
+        background-color: #fffdfd; /* Adjust background color as needed */
+        color: rgb(12, 12, 12);
+        text-align: center;
+        padding: 10px;
+    
+    
+    
+    }
+    header a{
+        color: rgb(12, 12, 12);
+        text-decoration:none;
+    }
+
